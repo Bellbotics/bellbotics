@@ -61,4 +61,4 @@ Simulated usage-based billing pipeline using Apache Flink for real-time streamin
 
 ## 🤝 Connect
 
-- LinkedIn: https://linkedin.com/gregwbell
+- LinkedIn: https://www.linkedin.com/in/gregwbell/
