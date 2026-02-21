@@ -118,14 +118,6 @@ BS CIS & BS Accounting — University of Louisville
 
 ---
 
-# Certifications
-
-- AWS Solutions Architect – Associate  
-- Certified Kubernetes Administrator (CKA)  
-- Oracle Java SE OCP  
-
----
-
 # Selected Technical Initiatives
 
 - **Memory Spike Predictor** — Kubernetes-deployed scikit-learn sidecar forecasting memory usage for workload routing optimization  
