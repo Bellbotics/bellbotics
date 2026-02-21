@@ -122,7 +122,8 @@ BS CIS & BS Accounting — University of Louisville
 
 - **Memory Spike Predictor** — Kubernetes-deployed scikit-learn sidecar forecasting memory usage for workload routing optimization  
 - **Lighthouse BDS Orchestrator** — Distributed orchestration framework with chunked streaming, retry governance, and integrity validation  
-- **Streaming Analytics Demo (Flink)** — Simulated usage-based billing pipeline using Apache Flink  
+- **Streaming Analytics Demo (Flink)** — Simulated usage-based billing pipeline using Apache Flink
+- **Kubernetes Intelligent Workload Orchestrator** — Demo repository illustrating production-grade workload classification and independent autoscaling patterns using Kafka, Kubernetes HPAs, and resource governance
 
 ---
 
