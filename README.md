@@ -3,50 +3,105 @@
 Senior Technical Leader focused on Kubernetes-based distributed systems, workload isolation patterns, and AI-operationalized infrastructure in regulated enterprise environments.
 
 I design systems that are:
-- Scalable under burst load
-- Governed under compliance constraints
-- Deterministic under failure
-- AI-augmented without sacrificing control
+
+- Scalable under burst load  
+- Governed under compliance constraints  
+- Deterministic under failure  
+- AI-augmented without sacrificing control  
 
 ---
 
 # 🔎 Current Focus
 
-- Kubernetes workload isolation & intelligent routing (light vs heavy patterns)
-- Autoscaling strategy (HPA + resource governance)
-- Kafka-based decoupled architectures
-- Distributed system resilience & failure isolation
-- Observability-driven scaling decisions
-- Production-grade AI orchestration patterns (governed agent workflows)
-- Enterprise-safe AI operationalization (approval gates, policy guardrails, audit trails)
+- Kubernetes workload isolation & intelligent routing (light vs heavy patterns)  
+- Autoscaling strategy (HPA + resource governance)  
+- Kafka-based decoupled architectures  
+- Distributed system resilience & failure isolation  
+- Observability-driven scaling decisions  
+- Production-grade AI orchestration patterns (governed agent workflows)  
+- Enterprise-safe AI operationalization (approval gates, policy guardrails, audit trails)  
+- Multi-agent reasoning systems with deterministic aggregation logic  
 
 ---
 
 # 🚀 Flagship Work
 
-## 📈 Stock-Agent: Multi-Agent LLM Portfolio Engine
+## 📈 Stock-Agent: Multi-Agent Portfolio Governance Engine
 
-Personal multi-agent LLM decision framework designed to systematize high-conviction, high-beta equity investing.
+Advanced multi-agent AI decision system that formalizes high-conviction, high-beta investing into a structured governance framework.
 
-This project demonstrates how structured AI orchestration patterns can be applied beyond enterprise operations — into capital allocation systems.
+This project now functions as a conviction discipline engine — not just a scoring tool.
 
-Core capabilities:
+### 🧠 Multi-Agent Graph
 
-- Multi-agent evaluation (Thesis, Risk, Sentiment, Bias, Judge)
-- Market regime detection (risk_on / neutral / risk_off)
-- Deterministic scoring (Buy Score, Hold Confidence, Sell Risk)
-- Allocation-aware cash deployment recommendations
-- Automatic portfolio % calculation
-- Stress testing (-20%, -30%, -40% scenarios)
-- GitHub Actions automated reporting
-- YAML-driven portfolio configuration
+Each position is evaluated by specialized agents:
+
+- Thesis Integrity Agent  
+- Risk Exposure Agent  
+- Sentiment Agent  
+- Skeptic (Adversarial) Agent  
+- Bias Detection Agent  
+- Consistency Agent  
+- Judge Aggregation Agent  
+
+These agents evaluate clarity, downside asymmetry, narrative alignment, structural fragility, bias, and allocation consistency.
+
+### ⚖ Counterbalance Engine
+
+Raw conviction is mathematically adjusted downward based on fragility signals.
+
+Effective Buy Score:
+
+EffBuy = Raw Buy − (Risk Weight × Risk + Skeptic Pressure + Agent Conflict)
+
+This prevents conviction inflation and narrative overconfidence.
+
+### 📊 Quant Overlay Layer
+
+- Beta vs SPY  
+- Annualized volatility  
+- 12–1 momentum  
+- Correlation clustering  
+- HHI concentration analysis  
+- Historical VaR & Expected Shortfall  
+- Monte Carlo drawdown simulation  
+
+Quant is used for structural awareness, not prediction.
+
+### 🌎 Regime Detection (Blended Model)
+
+- LLM-based macro narrative assessment  
+- Quant-based SPY trend and volatility model  
+- Confidence-threshold override logic  
+
+Outputs: Risk-On / Neutral / Risk-Off
+
+### 🔁 Persistent Conviction Memory
+
+State tracking per ticker:
+
+- Buy score drift  
+- Risk escalation  
+- Skeptic pressure changes  
+- Score stability / jitter monitoring  
+
+Conviction is tracked longitudinally — not evaluated in isolation.
+
+### 📈 Portfolio Governance Features
+
+- Allocation-aware scoring  
+- Target max % enforcement  
+- Structural sell-review triggers  
+- Cash deployment recommendations  
+- Stress testing (-20%, -30%, -40%)  
+- Automated GitHub reporting  
 
 Design philosophy:
 
-- Sell only when thesis breaks — not on volatility
-- Conviction-weighted scoring
-- Regime-adjusted aggressiveness
-- Structured reasoning over prediction
+- Sell when thesis breaks — not when volatility spikes  
+- Allow asymmetric upside  
+- Enforce structural downside discipline  
+- Govern conviction, not predict price  
 
 Repo: https://github.com/Bellbotics/stock-agent
 
@@ -54,18 +109,18 @@ Repo: https://github.com/Bellbotics/stock-agent
 
 ## 🛡 Enterprise Ops Copilot (LangGraph)
 
-Enterprise-grade AI orchestration framework demonstrating how LLM-driven workflows can be safely operationalized in regulated environments.
+Enterprise-grade AI orchestration framework demonstrating safe operationalization of LLM-driven workflows in regulated environments.
 
 Key capabilities:
 
-- Stateful, checkpointed LangGraph orchestration
-- Human-in-the-loop approval gates (separation of duties)
-- Policy-as-code enforcement (environment rules, risk controls, redaction)
-- Artifact-driven change generation (PR diffs, ticket payloads, Slack updates)
-- Persistent audit trails & resumable execution
-- Portable adapters (Kubernetes, APM, DB signals, Git, ITSM)
+- Stateful LangGraph orchestration  
+- Human-in-the-loop approval gates  
+- Policy-as-code enforcement  
+- Artifact-driven execution (PR diffs, tickets, Slack updates)  
+- Persistent audit trails  
+- Resumable workflow execution  
 
-Designed to demonstrate how AI can augment incident response without violating governance or compliance constraints.
+Designed to show how AI augments operations without bypassing governance.
 
 Repo: https://github.com/Bellbotics/enterprise-langgraph-ops-demo
 
@@ -75,11 +130,11 @@ Repo: https://github.com/Bellbotics/enterprise-langgraph-ops-demo
 
 Reference architecture demonstrating:
 
-- Kafka-based decoupling of mixed workloads
-- Intelligent routing (light vs heavy classification)
-- Independent worker pools with separate HPAs
-- CPU-driven scaling under burst conditions
-- Isolation to prevent cross-workload interference
+- Kafka-based workload decoupling  
+- Intelligent routing (light vs heavy classification)  
+- Independent worker pools with separate HPAs  
+- CPU-driven scaling under burst conditions  
+- Isolation preventing cross-workload interference  
 
 Repo: https://github.com/Bellbotics/k8s-intelligent-workload-orchestrator
 
@@ -87,9 +142,9 @@ Repo: https://github.com/Bellbotics/k8s-intelligent-workload-orchestrator
 
 ## 📈 Memory Spike Predictor
 
-Kubernetes-deployed scikit-learn sidecar forecasting memory usage for compute-intensive document workloads.
+Kubernetes-deployed ML sidecar forecasting memory usage for compute-intensive document workloads.
 
-Designed to prevent pod OOMKills and improve routing efficiency under burst conditions.
+Prevents OOMKills and improves routing efficiency under burst conditions.
 
 Repo: https://github.com/Bellbotics/memory-spike-predictor
 
@@ -97,12 +152,12 @@ Repo: https://github.com/Bellbotics/memory-spike-predictor
 
 ## 📊 Streaming Analytics Demo (Apache Flink)
 
-Simulated usage-based billing and streaming analytics pipeline using Apache Flink to demonstrate:
+Real-time event processing simulation featuring:
 
-- Real-time event processing
-- Stateful stream operations
-- Throughput and latency tuning
-- Event-time windowing & checkpointing
+- Stateful stream operations  
+- Event-time windowing  
+- Checkpointed fault tolerance  
+- Throughput and latency tuning  
 
 Repo: https://github.com/Bellbotics/flink-streaming-analytics-demo
 
@@ -110,57 +165,57 @@ Repo: https://github.com/Bellbotics/flink-streaming-analytics-demo
 
 ## 📦 Distributed Document Orchestrator
 
-Production-grade orchestration framework featuring:
+Production-grade orchestration system featuring:
 
-- Chunked large-file streaming (150MB+)
-- SHA256 integrity validation
-- SQL hex fallback extraction
-- Exponential retry/backoff logic
-- Corruption prevention under transient failures
-- Resilient Kubernetes-based execution under memory constraints
+- Chunked 150MB+ streaming  
+- SHA256 integrity validation  
+- SQL hex fallback extraction  
+- Exponential retry/backoff logic  
+- Corruption prevention under transient failure  
+- Resilient Kubernetes execution under memory constraints  
 
 ---
 
 # 🏗 Platform Engineering Highlights
 
-- Operate Kubernetes (EKS) ecosystems supporting millions of API requests per day
-- Process ~18K+ daily compute-intensive document transactions
-- Tune pod CPU/memory requests & limits under constrained environments
-- Implement service mesh resilience policies (Istio)
-- Instrument workloads with Datadog & OpenTelemetry
-- Modernize legacy integrations to event-driven architectures (Kafka-first patterns)
-- Design governance-first AI orchestration systems for enterprise production environments
+- Operate Kubernetes ecosystems supporting millions of API calls per day  
+- Process ~18K+ daily compute-intensive document transactions  
+- Tune pod CPU/memory constraints under production load  
+- Implement service mesh resilience policies (Istio)  
+- Instrument distributed systems with Datadog & OpenTelemetry  
+- Modernize legacy integrations to event-driven architectures  
+- Build governance-first AI orchestration systems  
 
 ---
 
-# 🧠 Technical Themes Across Projects
+# 🧠 Cross-Cutting Themes
 
-Across both enterprise and personal systems, consistent patterns emerge:
+Across enterprise and personal systems:
 
-- Multi-agent orchestration
-- Deterministic workflow control
-- Isolation between workload classes
-- Policy-aware execution
-- Observability-first design
-- Failure-resilient infrastructure
-- Capital and compute treated as allocatable resources
+- Multi-agent orchestration  
+- Deterministic workflow aggregation  
+- Counterbalance mechanisms  
+- Isolation between workload classes  
+- Policy-aware execution  
+- Observability-first design  
+- Risk-adjusted allocation (capital or compute)  
 
 The same architectural discipline applies to:
 
-Incident response  
-Document processing  
-AI orchestration  
-Capital allocation  
+- Incident response  
+- Document processing  
+- AI orchestration  
+- Capital allocation  
 
 ---
 
 # 🎯 Leadership
 
-- Lead architecture sessions with Deloitte GPS CTO leadership
-- Translate business & compliance requirements into scalable platform designs
-- Bridge executive strategy and distributed system implementation
-- Mentor engineers in reliability, scaling, AI safety, and cloud-native best practices
-- Drive modernization initiatives toward event-driven and AI-augmented operational models
+- Lead architecture sessions with Deloitte GPS CTO leadership  
+- Translate compliance requirements into scalable platform designs  
+- Bridge executive strategy and distributed system implementation  
+- Mentor engineers in reliability, scaling, AI safety, and cloud-native best practices  
+- Drive modernization toward event-driven and AI-augmented systems  
 
 ---
 
@@ -178,8 +233,8 @@ LinkedIn: https://www.linkedin.com/in/gregwbell/
 
 # Disclaimer
 
-All projects listed here are educational and architectural demonstrations.
+All projects listed are architectural demonstrations.
 
-They are not financial advice, production systems for sale, or endorsements of any specific technology.
+They are not financial advice, production trading systems, or endorsements of any specific technology.
 
-They are reference implementations demonstrating distributed systems and AI orchestration principles.
+They are reference implementations demonstrating distributed systems and governed AI orchestration principles.
