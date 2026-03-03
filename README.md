@@ -267,6 +267,7 @@ Repo: https://github.com/Bellbotics/memory-spike-predictor
 
 # 🤝 Connect
 
+Resume: [resume/greg-bell-resume.md](resume/greg-bell-resume.md)  
 LinkedIn: https://www.linkedin.com/in/gregwbell/  
 
 ---
