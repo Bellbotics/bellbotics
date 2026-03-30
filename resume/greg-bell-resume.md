@@ -1,32 +1,29 @@
 # Greg Bell
 Vero Beach, FL  
-greg.w.bell@gmail.com | 502.541.9080  
+greg.w.bell@gmail.com | 502-541-9080  
 https://linkedin.com/in/gregwbell  
 https://github.com/Bellbotics  
 
 ---
 
-# Senior Technical Leader | AI, Cloud, and Enterprise Platform Engineering
+# Senior Technical Leader | Cloud, AI, and Platform Engineering
 
-Technical leader with 25+ years of experience designing and operating scalable, distributed systems in regulated enterprise environments. Deep expertise in Kubernetes platform engineering, high-throughput data processing, and cloud-native modernization.
+Senior technology leader with 25+ years of experience delivering large-scale, mission-critical systems across federal and enterprise environments. Expertise in cloud-native platforms, Kubernetes, distributed systems, and emerging AI-enabled architectures.
 
-Trusted advisor to executive stakeholders, translating business and regulatory requirements into scalable, production-grade solutions. Proven ability to lead delivery, optimize performance at scale, and drive modernization across federal and enterprise environments.
-
-Focused on **AI-enabled infrastructure, intelligent workload optimization, and resilient cloud-native systems**.
+Strong background in client delivery, solution architecture, and large-scale system modernization, with a focus on reliability, performance, and operational excellence.
 
 ---
 
 # Core Competencies
 
-- Kubernetes (EKS), Helm, Istio Service Mesh  
-- Horizontal Pod Autoscaler (HPA) tuning & workload isolation  
-- Java 21, Spring Boot, JVM (G1GC) performance engineering  
-- AWS (EKS, RDS, S3), Terraform, ArgoCD (GitOps)  
-- Kafka, RabbitMQ, event-driven architectures  
+- AWS (EKS, RDS, S3), Kubernetes, Terraform, Helm  
+- Microservices, REST APIs, event-driven systems  
+- AI Systems: LLM workflows, LangGraph, multi-agent orchestration  
+- JVM tuning (G1GC), high-throughput processing  
 - Datadog, OpenTelemetry, Prometheus, Grafana  
-- High-throughput document & data processing pipelines  
-- Distributed system resilience & fault tolerance  
-- Executive stakeholder communication & client delivery  
+- Kafka, RabbitMQ  
+- GitOps (ArgoCD), CI/CD  
+- Stakeholder & client leadership  
 
 ---
 
@@ -36,86 +33,86 @@ Focused on **AI-enabled infrastructure, intelligent workload optimization, and r
 VA Lighthouse Platform (Federal Program)  
 2021–Present  
 
-Lead architecture, delivery, and platform engineering for mission-critical federal systems supporting veteran services and processing high-volume, compute-intensive document workloads.
+### Impact & Business Outcomes (UPDATED)
 
-### Platform Engineering & Delivery
+- Enabled **100K+ daily transactions** supporting veteran services → ensured **high availability of critical benefits systems nationwide**  
+- Reduced memory-related failures by **60–80%** → **significantly decreased production incidents and on-call escalations**  
+- Eliminated file corruption in distributed pipelines → ensured **data integrity for veteran documents and downstream claims processing**  
+- Achieved **100% observability coverage of critical services** → reduced **MTTR and improved incident response time**  
+- Stabilized burst workload behavior → reduced **system risk during peak processing windows**  
 
-- Architect and operate Kubernetes (EKS) microservice ecosystem under strict resource constraints (6GB pod limits, burst workloads)  
-- Tune HPA scaling thresholds and container resource configurations to optimize performance and prevent OOM conditions  
-- Implement workload isolation patterns for compute-intensive services  
-- Leverage Istio service mesh for traffic control, resiliency, and governance  
-- Manage GitOps deployments via ArgoCD to support controlled releases and scaling  
+### Responsibilities
 
-### Performance & Reliability Engineering
+- Architect Kubernetes (EKS) microservices platform (6GB pods, burst workloads)  
+- Tune HPA scaling and resource allocations to prevent OOM events  
+- Implement Istio service mesh for resilience and traffic control  
+- Manage GitOps deployments via ArgoCD  
 
-- Designed and implemented resilient distributed processing pipeline for large PDF workloads (150MB+, 1000+ pages)  
-- Engineered chunked streaming architecture with retry/backoff and integrity validation (SHA256)  
-- Eliminated file corruption issues and improved reliability across distributed systems  
-- Tuned JVM memory (G1GC) and SQL Server connection pooling (HikariCP) under high concurrency  
+- Designed distributed processing pipeline for large document workloads  
+- Built chunked streaming architecture with retry/backoff and SHA256 validation  
+- Tuned JVM memory and SQL Server (HikariCP) for high concurrency  
 
-### Observability & Operational Excellence
-
-- Implemented observability using Datadog and OpenTelemetry (APM, metrics, logs)  
-- Analyzed p95 latency, memory utilization, and workload patterns to drive system improvements  
-- Established resilience patterns including retry strategies and failure recovery mechanisms  
-
-### Architecture Leadership
-
-- Lead architecture discussions with Deloitte and federal stakeholders  
-- Translate business and compliance requirements into scalable technical designs  
-- Support modernization efforts toward REST and event-driven architectures  
-- Mentor engineers on distributed systems and cloud-native best practices  
+- Implemented observability using Datadog/OpenTelemetry  
+- Led architecture discussions with Deloitte and federal stakeholders  
+- Translated business requirements into scalable cloud-native solutions  
 
 ---
 
 ## Founder & Architect — Snibble (AI Portfolio Intelligence Platform)  
 2025–Present  
 
-Founded and built Snibble, a portfolio intelligence platform focused on uncovering hidden exposure and risk in investments.
+### Impact & Business Outcomes (UPDATED)
 
-- Built full-stack application (Next.js, FastAPI, PostgreSQL)  
-- Integrated Plaid and Stripe for data access and subscriptions  
-- Developed analytics to identify concentration risk and exposure  
-- Designed decision-support logic for portfolio insights and recommendations  
+- Built AI-enabled platform that helps users **identify hidden portfolio exposure → improving investment decision quality**  
+- Translates complex financial data into **clear, actionable insights → increasing usability and user trust**  
+- Implemented AI workflows producing **structured, explainable outputs → improving transparency of recommendations**  
+
+### Responsibilities
+
+- Built platform using Next.js, FastAPI, PostgreSQL  
+- Integrated Plaid and Stripe  
+- Developed analytics for exposure and concentration risk  
+
+- Implemented LLM workflows and LangGraph orchestration  
+- Designed decision-support system combining analytics + AI reasoning  
 
 ---
 
 ## Senior Software Engineer — Planet Payment  
 2016–2021  
 
-- Led migration from Struts monolith to Spring Boot microservices  
-- Designed secure OAuth2 integrations and AWS-based deployments  
-- Improved CI/CD pipelines and system reliability  
+- Migrated monolith to microservices → improved **scalability and deployment velocity**  
+- Enhanced CI/CD pipelines → reduced **release friction and improved reliability**  
+- Designed OAuth2 integrations → strengthened **security posture**  
 
 ---
 
 ## Lead Software Engineer — Churchill Downs  
 2013–2016  
 
-- Architected event-driven systems using RabbitMQ  
-- Built compliance-driven wagering systems and backend services  
+- Built event-driven systems → enabled **real-time transaction processing at scale**  
+- Delivered regulated wagering systems → ensured **compliance and system integrity**  
 
 ---
 
 ## Software Engineer III — Appriss  
 2012–2013  
 
-- Developed backend services and data processing pipelines  
+- Built backend services → supported **data processing and alerting workflows**  
 
 ---
 
 ## Senior Application Developer — Stored Value Solutions  
 2011–2012  
 
-- Migrated legacy systems to modern Java-based architecture  
-- Improved authentication and system workflows  
+- Modernized legacy systems → improved **maintainability and performance**  
 
 ---
 
 ## Software Engineer — Motorola  
 2000–2004  
 
-- Developed enterprise systems supporting global operations  
+- Developed enterprise systems → supported **global operations and scalability**  
 
 ---
 
@@ -126,23 +123,10 @@ BS CIS & BS Accounting — University of Louisville
 
 ---
 
-# Selected Technical Initiatives
+# Selected Projects
 
-- Kubernetes-based distributed processing pipeline for large document workloads  
-- Resilient chunked streaming and data integrity validation framework  
-- Observability-driven performance optimization using Datadog  
-- Event-driven architecture modernization patterns  
+- AI multi-agent workflows using LangGraph → structured decision systems  
+- Kubernetes workload optimization → improved system stability under load  
+- Distributed streaming pipeline → ensured data integrity and recovery  
+- Observability platform → improved system visibility and operations  
 
----
-
-# Positioning Summary
-
-Senior technical leader specializing in:
-
-- Cloud and Kubernetes platform engineering  
-- High-scale distributed systems and performance optimization  
-- Resilient system design and reliability engineering  
-- Enterprise modernization in regulated environments  
-- Client-facing technical leadership and delivery  
-
-Aligned to roles requiring **cloud transformation, platform engineering, and large-scale system delivery leadership**.
